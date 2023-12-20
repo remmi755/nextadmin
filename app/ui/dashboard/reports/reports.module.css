@@ -1,0 +1,30 @@
+.container {
+
+}
+
+.cards {
+    display: flex;
+    margin:20px 0;
+    gap: 20px;
+}
+
+.reports {
+display: flex;
+    gap: 20px;
+}
+
+.btn {
+    cursor: pointer;
+    width: 700px;
+    padding: 30px;
+    background-color:teal;
+    color: var(--text);
+    border: none;
+    border-radius: 5px;
+    display: block;
+    margin: 30px auto ;
+}
+
+.btn:hover {
+    opacity: 0.7;
+}
