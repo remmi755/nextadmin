@@ -7,7 +7,7 @@ import { User } from "@/app/lib/models";
 
 const login = async (credentials) => {
   try {
-    connectToDb();
+   await connectToDb();
     const user = await User.findOne({ username: credentials.username });
 
     if (!user || !user.isAdmin) throw new Error("Wrong credentials!");
