@@ -1,0 +1,24 @@
+.container {
+    max-width: 500px;
+    padding: 30px 40px;
+    margin:15% auto;
+    text-align: center;
+    background: linear-gradient(97.78deg,  #4423a3 17.5%,  #aa63cb 113.39%)
+}
+
+.title{
+    font-size: 40px;
+}
+
+.link{
+    margin-top: 40px;
+    padding: 15px;
+    font-size: 36px;
+    border: 2px solid teal;
+    border-image-repeat: inherit;
+    border-radius: 20px;
+}
+
+.link:hover{
+    color: fuchsia;
+}
