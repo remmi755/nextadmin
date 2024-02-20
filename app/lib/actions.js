@@ -161,6 +161,6 @@ export const authenticate = async (prevState, formData) => {
   } catch (err) {
     return "Wrong Credentials!";
   }
-  redirect('/dashboard');
+  redirect('https://nextadmin-cyan.vercel.app/dashboard');
 };
 
